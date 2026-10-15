@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagramas BD - Karen Itzel Grupo 506</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fff0f3; color: #593943; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #ffb3c6; color: #782942; text-align: center; padding: 2rem 1rem; border-bottom: 4px solid #ff8fab; }
+        header h1 { margin: 0; font-size: 1.8rem; }
+        .datos-alumno { margin-top: 8px; background-color: #ffe5ec; display: inline-block; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; color: #9b2246; font-weight: bold; border: 1px solid #ffb3c6; }
+        .contenedor { max-width: 850px; margin: 2rem auto; padding: 0 1rem; }
+        .tarjeta { background-color: #ffffff; border: 2px solid #ffccd5; padding: 1.8rem; border-radius: 15px; margin-bottom: 1.5rem; box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2); }
+        h2 { color: #b7094c; margin-top: 0; font-size: 1.3rem; border-bottom: 2px solid #ffe5ec; padding-bottom: 0.4rem; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 0.5rem; }
+        .btn-volver { display: inline-block; background-color: #ff8fab; color: #ffffff; text-decoration: none; padding: 0.5rem 1.2rem; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-bottom: 1.5rem; transition: background-color 0.2s; }
+        .btn-volver:hover { background-color: #b7094c; }
+        footer { text-align: center; padding: 1.5rem; background-color: #ffb3c6; color: #782942; margin-top: 3rem; font-size: 0.9rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modelado de Bases de Datos</h1>
+        <div class="datos-alumno">Karen Itzel León Pimentel - Grupo 506</div>
+    </header>
+
+    <div class="contenedor">
+        <a href="index.html" class="btn-volver">← Volver al Inicio</a>
+
+        <section class="tarjeta">
+            <h2>1. Diagrama Entidad-Relación (E-R)</h2>
+            <p>Es un modelo conceptual que permite representar visualmente los componentes de un sistema y cómo se relacionan entre sí:</p>
+            <ul>
+                <li><strong>Entidades:</strong> Objetos o conceptos principales (ej. <em>Alumnos</em>, <em>Cursos</em>), representados en rectángulos.</li>
+                <li><strong>Atributos:</strong> Características o propiedades de cada entidad (ej. nombre, edad, ID).</li>
+                <li><strong>Relaciones:</strong> Vínculos lógicos entre las entidades, representados mediante rombos.</li>
+            </ul>
+        </section>
+
+        <section class="tarjeta">
+            <h2>2. Modelo Relacional</h2>
+            <p>Es la traducción técnica del diagrama E-R a un esquema tabular estructurado para el sistema de base de datos:</p>
+            <ul>
+                <li><strong>Llave Primaria (PK - Primary Key):</strong> Identificador único e irrepetible para cada registro dentro de una tabla.</li>
+                <li><strong>Llave Foránea (FK - Foreign Key):</strong> Campo que establece un puente de relación directo conectando con la llave primaria de otra tabla.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Karen Itzel León Pimentel • Grupo 506</p>
+    </footer>
+</body>
+</html>
