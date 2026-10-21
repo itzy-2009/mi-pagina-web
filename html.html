@@ -1,0 +1,68 @@
++<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Básico - Karen Itzel Grupo 506</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fff0f3; color: #593943; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #ffb3c6; color: #782942; text-align: center; padding: 2rem 1rem; border-bottom: 4px solid #ff8fab; }
+        header h1 { margin: 0; font-size: 1.8rem; }
+        .datos-alumno { margin-top: 8px; background-color: #ffe5ec; display: inline-block; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; color: #9b2246; font-weight: bold; border: 1px solid #ffb3c6; }
+        .contenedor { max-width: 850px; margin: 2rem auto; padding: 0 1rem; }
+        .tarjeta { background-color: #ffffff; border: 2px solid #ffccd5; padding: 1.8rem; border-radius: 15px; margin-bottom: 1.5rem; box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2); }
+        h2 { color: #b7094c; margin-top: 0; font-size: 1.3rem; border-bottom: 2px solid #ffe5ec; padding-bottom: 0.4rem; }
+        pre { background-color: #fff5f7; color: #9b2246; border: 1px solid #ff8fab; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.9rem; font-family: Consolas, monospace; }
+        code { font-family: Consolas, monospace; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 0.4rem; }
+        .btn-volver { display: inline-block; background-color: #ff8fab; color: #ffffff; text-decoration: none; padding: 0.5rem 1.2rem; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-bottom: 1.5rem; transition: background-color 0.2s; }
+        .btn-volver:hover { background-color: #b7094c; }
+        footer { text-align: center; padding: 1.5rem; background-color: #ffb3c6; color: #782942; margin-top: 3rem; font-size: 0.9rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Módulo HTML: Creación y Sintaxis</h1>
+        <div class="datos-alumno">Karen Itzel León Pimentel - Grupo 506</div>
+    </header>
+
+    <div class="contenedor">
+        <a href="index.html" class="btn-volver">← Volver al Inicio</a>
+
+        <section class="tarjeta">
+            <h2>1. ¿Cómo crear una página web básica?</h2>
+            <p>Para crear una página web desde cero, se redacta el código en un editor de texto (como el Bloc de notas) y se guarda con la extensión <code>.html</code> (seleccionando "Todos los archivos" para evitar que se guarde como .txt). La estructura obligatoria que todo navegador lee es la siguiente:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Mi Página Web Escolar&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bienvenido a mi sitio web&lt;/h1&gt;
+    &lt;p&gt;Esta página fue creada por Karen Itzel (Grupo 506).&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </section>
+
+        <section class="tarjeta">
+            <h2>2. Sintaxis Básica de HTML</h2>
+            <p>HTML utiliza etiquetas (tags) delimitadas por corchetes angulares <code>&lt; &gt;</code> para indicar al navegador cómo mostrar la información:</p>
+            <ul>
+                <li><strong>&lt;!DOCTYPE html&gt;:</strong> Define que el documento es de HTML5.</li>
+                <li><strong>&lt;html&gt;:</strong> Elemento raíz que envuelve toda la página.</li>
+                <li><strong>&lt;head&gt;:</strong> Contiene la configuración de la página, codificación y el título de la pestaña.</li>
+                <li><strong>&lt;body&gt;:</strong> Contiene todo el contenido visual que se muestra en pantalla.</li>
+                <li><strong>&lt;h1&gt; a &lt;h6&gt;:</strong> Niveles de títulos y encabezados.</li>
+                <li><strong>&lt;p&gt;:</strong> Define bloques de párrafos de texto.</li>
+                <li><strong>&lt;br&gt;:</strong> Realiza un salto de línea individual.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Karen Itzel León Pimentel • Grupo 506</p>
+    </footer>
+</body>
+</html>
